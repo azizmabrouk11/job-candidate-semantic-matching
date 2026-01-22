@@ -2,7 +2,10 @@
 __pycache__/
 *.py[codz]
 *$py.class
+#env
+.env 
 
+notebooks/.ipynb_checkpoints/
 # C extensions
 *.so
 
