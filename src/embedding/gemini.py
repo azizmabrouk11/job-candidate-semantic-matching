@@ -76,7 +76,7 @@ def get_embedder() -> GeminiEmbedder:
     if _default_embedder is None:
         _default_embedder = GeminiEmbedder()
     return _default_embedder
-
+_default_embedder = None
 
 def embed_text(text: str) -> List[float]:
     """Quick one-shot embedding (your original style)."""
