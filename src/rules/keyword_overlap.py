@@ -11,12 +11,28 @@ def keyword_overlap(
         - bool:   True if overlap meets the threshold
         - float:  the actual similarity score (if you want the value)
     """
-    cand_keywords=candidate.get("skills").append(candidate.get("title"))
-    job_keywords=job.get("required_skills").append(job.get("title"))
+    # Build keyword lists
+    cand_keywords = candidate.get("skills", [])
+    if isinstance(cand_keywords, list):
+        cand_keywords = cand_keywords.copy()  # Don't modify original
+    else:
+        cand_keywords = []
+    
+    if candidate.get("title"):
+        cand_keywords.append(candidate.get("title"))
+    
+    job_keywords = job.get("required_skills", [])
+    if isinstance(job_keywords, list):
+        job_keywords = job_keywords.copy()
+    else:
+        job_keywords = []
+        
+    if job.get("title"):
+        job_keywords.append(job.get("title"))
 
     # Convert to sets (removes duplicates & makes intersection fast)
-    cand_set = set(k.lower().strip() for k in cand_keywords) if isinstance(cand_keywords, list) else cand_keywords
-    job_set  = set(k.lower().strip() for k in job_keywords)  if isinstance(job_keywords, list)  else job_keywords
+    cand_set = set(k.lower().strip() for k in cand_keywords if k)
+    job_set = set(k.lower().strip() for k in job_keywords if k)
     
     if not job_set:
         return False  # avoid division by zero
