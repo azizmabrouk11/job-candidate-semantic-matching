@@ -1,27 +1,60 @@
 # Job-Candidate Semantic Matching
 
-A semantic matching system that uses vector embeddings to match job postings with candidates based on their skills, experience, and descriptions. Built with Google Gemini embeddings, Qdrant vector database, and MongoDB.
+A hybrid matching system that combines semantic search with rule-based evaluation to match job postings with candidates. Built with Google Gemini embeddings, Qdrant vector database, MongoDB, and a custom rule engine for intelligent pair evaluation.
 
 ## Features
 
 - **Semantic Search**: Match candidates to jobs using AI-powered embeddings
+- **Rule-Based Evaluation**: Intelligent scoring using experience and keyword overlap rules
+- **Pair Generation**: Automated job-candidate pair creation for evaluation
 - **Vector Database**: Fast similarity search using Qdrant
 - **Flexible Matching**: Search jobs for candidates or candidates for jobs
 - **Score Thresholds**: Filter results by similarity scores (0.0 - 1.0)
 - **MongoDB Integration**: Load and update job/candidate data from MongoDB
+- **Evaluation Pipeline**: Generate and label pairs for testing matching quality
 
 ## Architecture
 
 ```
-MongoDB (Data Storage)
-    ↓
-Search Text Builder (Combines relevant fields)
-    ↓
-Google Gemini API (text-embedding-004)
-    ↓
-Qdrant Vector Store (Cosine similarity search)
-    ↓
-Matching Results
+┌─────────────────────────────────────────────────────────────┐
+│                    Data Layer (MongoDB)                      │
+│                                                              │
+│  Jobs Collection              Candidates Collection         │
+│  - title                      - name, title                 │
+│  - required_skills            - skills                      │
+│  - experience_required        - experience_years            │
+│  - description                - education, summary          │
+└──────────────────┬───────────────────────────────────────────┘
+                   │
+                   ↓
+┌─────────────────────────────────────────────────────────────┐
+│              Text Processing & Embedding                     │
+│                                                              │
+│  Search Text Builder ──→ Google Gemini (text-embedding-004) │
+│  (Combines relevant fields)     (768-dimensional vectors)   │
+└──────────────────┬───────────────────────────────────────────┘
+                   │
+                   ↓
+┌─────────────────────────────────────────────────────────────┐
+│           Vector Store (Qdrant) + Rule Engine               │
+│                                                              │
+│  ┌─────────────────┐        ┌──────────────────┐           │
+│  │ Semantic Search │        │  Rule-Based      │           │
+│  │ (Cosine)       │◄──────►│  Evaluation      │           │
+│  │                 │        │  - Experience    │           │
+│  │ Jobs Collection │        │  - Keyword Match │           │
+│  │ Candidates Coll │        │  - Binary Labels │           │
+│  └─────────────────┘        └──────────────────┘           │
+└──────────────────┬───────────────────────────────────────────┘
+                   │
+                   ↓
+┌─────────────────────────────────────────────────────────────┐
+│                   Matching Results                           │
+│                                                              │
+│  - Semantic similarity scores                               │
+│  - Rule-based match labels (0/1)                            │
+│  - Ranked candidate/job lists                               │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 ## Project Structure
@@ -30,20 +63,34 @@ Matching Results
 job-candidate-semantic-matching/
 ├── src/
 │   ├── db/
-│   │   ├── data_loader.py          # MongoDB data loading
+│   │   ├── data_loader.py          # MongoDB data loading & search text builders
 │   │   └── __init__.py
 │   ├── embedding/
-│   │   ├── gemini.py               # Google Gemini embeddings
+│   │   ├── gemini.py               # Google Gemini embeddings API wrapper
 │   │   └── __init__.py
-│   └── vector_store/
-│       ├── qdrant.py               # Qdrant operations
-│       └── __init__.py
+│   ├── vector_store/
+│   │   ├── qdrant.py               # Qdrant vector DB operations
+│   │   └── __init__.py
+│   ├── rules/
+│   │   ├── experience.py           # Experience matching rule
+│   │   ├── keyword_overlap.py      # Keyword/skill overlap rule
+│   │   └── __init__.py
+│   ├── evaluation/
+│   │   └── rule_engine.py          # Rule-based pair evaluation
+│   ├── pairing/
+│   │   ├── build_pairs.py          # Generate job-candidate pairs by title
+│   │   └── label_pairs_rules.py    # Label pairs using rules
+│   └── matching/                    # (Reserved for future matching logic)
 ├── scripts/
-│   ├── build_search_text.py        # Build searchable text fields
+│   ├── build_search_text.py        # Build searchable text fields in MongoDB
 │   ├── embed_jobs.py               # Embed jobs into Qdrant
 │   ├── embed_candidates.py         # Embed candidates into Qdrant
 │   ├── match_candidate.py          # Find jobs for a candidate
 │   └── match_job.py                # Find candidates for a job
+├── data/
+│   └── eval/
+│       ├── pairs_raw.json          # Raw job-candidate pairs
+│       └── pairs_labeled_rules.json # Pairs with rule-based labels
 ├── notebooks/
 │   ├── 01_embedding_pipeline.ipynb
 │   └── 02_embedding_pipeline.ipynb
@@ -93,6 +140,18 @@ job-candidate-semantic-matching/
 
 ## Usage
 
+### Pipeline Overview
+
+The system supports two main workflows:
+
+**1. Semantic Matching Pipeline** (Vector Search)
+- Build search text → Generate embeddings → Search by similarity
+
+**2. Rule-Based Evaluation Pipeline**
+- Generate pairs → Apply rules → Label matches
+
+---
+
 ### 1. Build Search Text Fields
 
 First, generate the `search_text` field for all jobs and candidates in MongoDB. This combines relevant fields (title, skills, description, experience, etc.) into a single optimized text field for embedding.
@@ -127,7 +186,7 @@ This will:
 - Generate embeddings using Google Gemini
 - Store vectors in Qdrant's `candidates` collection
 
-### 3. Match Jobs and Candidates
+### 3. Semantic Matching (Vector Search)
 
 #### Find Jobs for a Candidate
 ```bash
@@ -159,6 +218,60 @@ python scripts/match_job.py 15
 # Find candidates with similarity score >= 0.7
 python scripts/match_job.py 15 0.7
 ```
+
+### 4. Rule-Based Evaluation Pipeline
+
+#### Generate Job-Candidate Pairs
+```bash
+python src/pairing/build_pairs.py
+```
+
+**What it does:**
+- Loads jobs and candidates from MongoDB
+- Creates pairs based on **title matching** (normalized comparison)
+- Saves pairs to `data/eval/pairs_raw.json`
+
+**Output format:**
+```json
+[
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_042",
+    "job_title": "Backend Developer",
+    "candidate_title": "Backend Developer"
+  }
+]
+```
+
+#### Label Pairs with Rules
+```bash
+python src/pairing/label_pairs_rules.py
+```
+
+**What it does:**
+- Reads pairs from `data/eval/pairs_raw.json`
+- Applies rule-based evaluation:
+  - **Experience Rule**: Candidate meets job's experience requirement (±1 year tolerance)
+  - **Keyword Overlap Rule**: Jaccard similarity ≥ 0.4 between skills/titles
+- Assigns binary labels (1 = match, 0 = no match)
+- Saves to `data/eval/pairs_labeled_rules.json`
+
+**Output format:**
+```json
+[
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_042",
+    "label_matched": 1
+  }
+]
+```
+
+**Rule Logic:**
+- **Match (1)**: Both experience AND keyword overlap conditions are satisfied
+- **No Match (0)**: At least one condition fails
+
+---
 
 ### Understanding Scores
 
@@ -228,6 +341,67 @@ The system uses **cosine similarity** for matching:
 - `get_candidate_vector()` - Retrieve candidate embedding
 - `get_job_vector()` - Retrieve job embedding
 
+### Rules Module (`src.rules`)
+
+#### Experience Rule (`experience.py`)
+```python
+experience(candidate, job, tolerance=0.0) -> bool
+```
+Checks if candidate's years of experience meets or exceeds job's requirement (with optional tolerance).
+
+**Parameters:**
+- `candidate`: Candidate document with `experience_years`
+- `job`: Job document with `experience_required`
+- `tolerance`: Float (default 0.0), allows ±N years flexibility
+
+**Returns:** `True` if candidate meets requirement
+
+#### Keyword Overlap Rule (`keyword_overlap.py`)
+```python
+keyword_overlap(candidate, job, min_overlap_ratio=0.4, mode="overlap") -> bool
+```
+Computes keyword/skill similarity between candidate and job.
+
+**Parameters:**
+- `candidate`: Candidate document with `skills` and `title`
+- `job`: Job document with `required_skills` and `title`
+- `min_overlap_ratio`: Float (default 0.4), minimum similarity threshold
+- `mode`: String - "overlap" (overlap coefficient), "jaccard", or "dice"
+
+**Returns:** `True` if similarity meets threshold
+
+**Similarity Modes:**
+- **overlap**: `|intersection| / min(|A|, |B|)` - Best for asymmetric matching
+- **jaccard**: `|intersection| / |union|` - Balanced similarity measure
+- **dice**: `2 × |intersection| / (|A| + |B|)` - Harmonic mean similarity
+
+### Evaluation Module (`src.evaluation`)
+
+#### Rule Engine (`rule_engine.py`)
+```python
+label_pair(candidate, job) -> bool
+```
+Evaluates a job-candidate pair using combined rules.
+
+**Logic:**
+```
+Match = experience(tolerance=1.0) AND keyword_overlap(min_ratio=0.4, mode="jaccard")
+```
+
+**Returns:** `True` (match) or `False` (no match)
+
+### Pairing Module (`src.pairing`)
+
+#### Pair Building (`build_pairs.py`)
+- `build_pairs()` - Generate job-candidate pairs based on title matching
+- `save_pairs()` - Save pairs to JSON file
+- Creates pairs where normalized job titles match normalized candidate titles
+
+#### Pair Labeling (`label_pairs_rules.py`)
+- `label_pairs()` - Apply rule engine to all pairs
+- Loads data from MongoDB, evaluates each pair, saves labels
+- Outputs statistics on match rate
+
 ## Development
 
 ### Run Tests
@@ -261,11 +435,52 @@ If you get 0 results even with threshold 0:
 
 ## Dependencies
 
-- `qdrant-client` - Vector database client
-- `pymongo` - MongoDB driver
-- `pandas` - Data manipulation
-- `google-generativeai` - Google Gemini API
+Core dependencies:
+- `qdrant-client` - Vector database client for similarity search
+- `pymongo` - MongoDB driver for data storage
+- `pandas` - Data manipulation and analysis
+- `google-generativeai` - Google Gemini API for embeddings
 - `python-dotenv` - Environment variable management
+
+Install all dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Evaluation & Testing
+
+The project includes a comprehensive evaluation pipeline to assess matching quality:
+
+### Evaluation Workflow
+
+1. **Generate Pairs** - Create job-candidate pairs using title matching
+2. **Apply Rules** - Label pairs using rule-based logic
+3. **Analyze Results** - Review match statistics and quality
+
+### Rule Configuration
+
+Default rule thresholds (in `rule_engine.py`):
+- Experience tolerance: `1.0 year`
+- Keyword overlap ratio: `0.4` (40% Jaccard similarity)
+
+Modify these in the rule functions for different matching strictness:
+
+```python
+# Stricter matching
+label = label_pair(candidate, job)
+# Uses: experience(tolerance=1.0) + keyword_overlap(min_ratio=0.4)
+
+# More lenient
+experience(candidate, job, tolerance=2.0)  # ±2 years
+keyword_overlap(candidate, job, min_overlap_ratio=0.2)  # 20% overlap
+```
+
+### Evaluation Metrics
+
+To evaluate matching performance, compare:
+- **Semantic scores** (from vector search) vs **Rule labels** (from evaluation)
+- Precision/Recall of semantic search at different thresholds
+- Agreement between semantic and rule-based approaches
 
 ## License
 
