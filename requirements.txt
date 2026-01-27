@@ -1,3 +1,4 @@
 qdrant-client
 pymongo 
 pandas
+numpy

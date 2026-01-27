@@ -1,0 +1,3002 @@
+[
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 1,
+    "semantic_score": 0.7418922060813004
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5323031915507478
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.6091225856043869
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4607218209016363
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4692375413700734
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48130186288993326
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45911727730746815
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48145424057106406
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.571103552908851
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42152925410137354
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5040509431796962
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4001965029274421
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45277429477958886
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4293398950922563
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5060488912352301
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4760878005224698
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46148901759752037
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5099399269929032
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46210386227771366
+  },
+  {
+    "job_id": "job_001",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4650274488104123
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5844271673124387
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 1,
+    "semantic_score": 0.6725851392964473
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5827849081766819
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44457610895525485
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45070246782848056
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4553760819479417
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43010799604593125
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4804353737555954
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5300168673696407
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.476494637398567
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4436122455986766
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3551401863413049
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4243918767459269
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46857618801638
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47039780442755297
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44709342542147645
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4674434516436409
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4467900678393971
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4417997984873336
+  },
+  {
+    "job_id": "job_002",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44197454052280816
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.6736795370051297
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5738335574059061
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 1,
+    "semantic_score": 0.7511093300853204
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.477252198280643
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4945527345273774
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4966824682363778
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.49062568713966376
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4763461928433498
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5944297369558112
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4360121174210102
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.49364661242080143
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3826377919258518
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4487877107372234
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4497792373746638
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5260399931285572
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5203941846924436
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46694852925896485
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46612331568540255
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4633822672058408
+  },
+  {
+    "job_id": "job_003",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4866319653507332
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47532333492757517
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4678960873361136
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4718784567914512
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 1,
+    "semantic_score": 0.705455249912035
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5521735633582951
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43738806803592845
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43219209636808187
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46393519383845916
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4782755340400112
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.429351256810518
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5129346620893351
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4499615481864226
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4513799396719242
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4510129074469791
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4234291874005096
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.6134526320248391
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.39348091431998544
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43611205803518455
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47320059163113
+  },
+  {
+    "job_id": "job_004",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43192321389045557
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5224212828315644
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.451386278184289
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.49582289407027047
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.588315106286318
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 1,
+    "semantic_score": 0.6909162083231113
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.482888117254401
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.474833235257549
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4855153521138691
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4935775745599182
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4162212725400237
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5406429112024507
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5265665528011846
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42268552137480814
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4498699414409194
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47373305746948385
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.6185238871143041
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4212491242565314
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4265125154130244
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4876384428782225
+  },
+  {
+    "job_id": "job_005",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.552891344452433
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5310451658668468
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45344804066260264
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5042439977996558
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44480420735881887
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4708896765528061
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 1,
+    "semantic_score": 0.6532500954366048
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5185940519522351
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5049749995324955
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5209607694277343
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3979126718720567
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4954389569844785
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3857270848269959
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5378200106077625
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4760280497285877
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4814376257658517
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5300558452902804
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.41773442855508924
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4789274024172717
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.563417075788124
+  },
+  {
+    "job_id": "job_006",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4440052529613968
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5016242348922836
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5091674369872772
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45851093648094604
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4253168055377326
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4789197245365725
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4426724148405629
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4143200187099351
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45848824113170034
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5095166294614709
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4662452587304382
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4405529969803315
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.39003703350428637
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3928809033544812
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4641526196358024
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46431013329033854
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4239307274539538
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4780356430116084
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46089140480688423
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.41819458593865566
+  },
+  {
+    "job_id": "job_007",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.40743515115632956
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47564768436675264
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4965963355218645
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46696059174461363
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46821213335849843
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4725769866124222
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5037442548762324
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4066945636748836
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 1,
+    "semantic_score": 0.6857156334308395
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48927300877775093
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.416822235880268
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5172658650486488
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3801606506673434
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44618938549948056
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4299963501121202
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4069465737241384
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48844704788104853
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4155096353837536
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4535389956234326
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4985433921578689
+  },
+  {
+    "job_id": "job_008",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43178636510553103
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5222877198621845
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42718205364369344
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4946045422389908
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4448895491441356
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4709476430088966
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5094884105168387
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 1,
+    "semantic_score": 0.7015415469779984
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4710355031418809
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4950754778533229
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3839719593964288
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4476141775935671
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.36704883872350624
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5044935945826031
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4545611341402275
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4842050600435159
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5089028469467982
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4093651241811008
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4691257192418696
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5344257434274574
+  },
+  {
+    "job_id": "job_009",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43387125646497726
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.49827370690322303
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43429657858520226
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4200012716584805
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5557201513799069
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5548739804738336
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4544530294862796
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3821084057412329
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46502459536681434
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.40816491598997173
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4578480701200562
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5428452253636121
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 1,
+    "semantic_score": 0.6727464163291733
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3972762389712676
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.402279192551553
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44133580309092546
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5270745528521323
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.38407027972973373
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4684329238895632
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4454129741915292
+  },
+  {
+    "job_id": "job_010",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5413545412473268
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.6271331124562842
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4831089046093121
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.548653820374806
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4559300573350601
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4841492105135905
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48052002635540364
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47782406070154704
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4875245016499009
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 1,
+    "semantic_score": 0.7164569892293046
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3831202573949146
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45367433592101497
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.36618707169345244
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45175289573558824
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4227016162696226
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4594120547352934
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.508345219419406
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4443937457569643
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4417751234570485
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.49160804715783596
+  },
+  {
+    "job_id": "job_011",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4541138401740043
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4843652010020315
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5791199305352341
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4637693310729578
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4940750379657924
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4594288430325523
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4374243703169968
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42199871203374856
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5109690876122114
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4810214256670196
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 1,
+    "semantic_score": 0.6476830489824178
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4439347759634495
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.39586359170288077
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.41147244827474316
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5147742185139148
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4280064729659551
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45227026312427737
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47815144379202285
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4895534132644679
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4495563022670733
+  },
+  {
+    "job_id": "job_012",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46293680360150385
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.475735645127395
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4167549960758323
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4507159310391065
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5227993007935174
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4678566012214066
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4816251541224505
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4969870908420639
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47277857292186026
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45888349741057777
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4015430513303396
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4269437762099244
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.40838488515616633
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5515220759021586
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.40547953463663305
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.472951407686545
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43955707090708035
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.38646928192215785
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4298678654326184
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5244553967654505
+  },
+  {
+    "job_id": "job_013",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.397365392203663
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5657676991962542
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4821226347336292
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48647772077191126
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5717856470576748
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5679914911151417
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.544559198947516
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4685808604921488
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.550596168585415
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5256303173738684
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.41263050914102545
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 1,
+    "semantic_score": 0.7107381937342551
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4923079756518319
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45441379532185083
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46885223692824285
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4548999260958948
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5672419611950303
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42818341999238047
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48969507647109767
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4900415777871106
+  },
+  {
+    "job_id": "job_014",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48399843285618577
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45651170531760654
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4637467547869013
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4516482691836407
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47034590628588213
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46473677038923933
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4302358181294871
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47427456015271546
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4685790105378846
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4820158590132564
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46979403970581723
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4369195174053781
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.407698837724237
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.40599729172034665
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 1,
+    "semantic_score": 0.7261353793578627
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4398971354677645
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4931672116852892
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.41887979366234035
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5134527900072592
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4405339935766952
+  },
+  {
+    "job_id": "job_015",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4782446383345008
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4593025302564431
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4226707902497779
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46533632080465454
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3686415908864543
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43235527847217875
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4282489805453864
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42362157496457
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44247019915349783
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48184139829249817
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3528624008767137
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.400436194791612
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.33309939597281707
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4684247648318945
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.38958258878125895
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4409066250792997
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4201541307789613
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4127337631014197
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4315170608645144
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48431408332582204
+  },
+  {
+    "job_id": "job_016",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42389384680534203
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.512172754341734
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44493910624873484
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.526857413932559
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.6171538655463543
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5743342809303981
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48896225593977766
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5359551441784888
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47903997410551974
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5164985661634067
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.40299813540486884
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5439288195239479
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4693789556407932
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4498951617110306
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47483122504434777
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4598231942362924
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 1,
+    "semantic_score": 0.7294069028430931
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4038354173259858
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.441168354666255
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4898764287279152
+  },
+  {
+    "job_id": "job_017",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5069652289931419
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.500876168431186
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46753566046972866
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.47943184344542583
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44601859840011676
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4605114383891675
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42775030024383376
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4123633833573808
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4540953736469177
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5106106550197748
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4308349146053663
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4249552481196221
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3924897345629434
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.38697909662983226
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45185708515717676
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46211401984053696
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43277178980424497
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 1,
+    "semantic_score": 0.7225228832934449
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45816077431254104
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43291715841786776
+  },
+  {
+    "job_id": "job_018",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4177194275875719
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44380839216151036
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4800648019976302
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.40197711195339275
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4515171796856599
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4177793082231489
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4279381862568402
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4121834933997357
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4854639222934502
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4435626055236439
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.424846160833076
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44412728979884497
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.37855778138579915
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4120627747522062
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48565482706916796
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.40803144682765513
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.434506682190731
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3948098626136422
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 1,
+    "semantic_score": 0.7005780122684785
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4907589252240258
+  },
+  {
+    "job_id": "job_019",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4190145666790773
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5600897581739795
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4832877450024228
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5279201264248614
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4555744958889049
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4539570091117372
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4806575595843989
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4862926194234737
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46332861940847275
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5222826002600162
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.39967043053438517
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4670249149903968
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4250218988623587
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4206929194617237
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4481511630091808
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 1,
+    "semantic_score": 0.720569346727795
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4692991080381206
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4668399383355933
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46761805169973353
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45372436749192435
+  },
+  {
+    "job_id": "job_020",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44693280277964204
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48430818944731846
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43869458407163153
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4836639579456704
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44009856561590355
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4384692871516033
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.520539870152554
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5072519175515278
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4442425208392934
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4871553031652194
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.34620123350516924
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45398457213830085
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.35774064016141943
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 1,
+    "semantic_score": 0.7268447233517761
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3882766199236284
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4082118761185119
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44888005344642123
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3798469024767149
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4473965611607369
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.6295446481654666
+  },
+  {
+    "job_id": "job_021",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3731540964426534
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45312806900945946
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.41277821939737674
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4316340955989167
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4800210222682592
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5346956209957413
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.40896989056862737
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.419096506916126
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4284471376037311
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43817073850178884
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.41371072434969947
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46005347020807763
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5407437275737886
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3803491282473661
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42392617215234607
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4252742715717913
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5095719989803873
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.36360742994727074
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.439293487101337
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4317193032034935
+  },
+  {
+    "job_id": "job_022",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 1,
+    "semantic_score": 0.717605938901673
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4618757907760983
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4544948463328851
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4360828461944193
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5897305332074825
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44276898608171794
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.41216045242206006
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42260486848087764
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45004965213561365
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5214238840338978
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4242591068414564
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4264787769062097
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.41583950153317106
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.429563441651728
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5472414266911853
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4319347186376617
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4770321566031583
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.43687078239553206
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.48932777088456536
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4560921039561038
+  },
+  {
+    "job_id": "job_023",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42800432854725357
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4664602614853531
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45608789907868263
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4423450282717984
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4412699518571732
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4239623409780319
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3902255234567502
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3730926568733786
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4367336801453095
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42859470603995486
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.39824812507145896
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4052630204557079
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3908470740995211
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.36596247473815013
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4002911047708453
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.454946953983827
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3860849232380063
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5868632772373944
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42786928056429785
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 0,
+    "semantic_score": 0.40432361419553736
+  },
+  {
+    "job_id": "job_024",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.41591529392331256
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_001",
+    "ground_truth_label": 0,
+    "semantic_score": 0.49259412154487114
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_002",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45894390243564614
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_003",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4893295581602263
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_004",
+    "ground_truth_label": 0,
+    "semantic_score": 0.44873688111345755
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_005",
+    "ground_truth_label": 0,
+    "semantic_score": 0.46025818048312084
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_006",
+    "ground_truth_label": 0,
+    "semantic_score": 0.54434014190143
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_007",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4986005651377333
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_008",
+    "ground_truth_label": 0,
+    "semantic_score": 0.5012786929778971
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_009",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4961835612010284
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_010",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3599306854904079
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_011",
+    "ground_truth_label": 0,
+    "semantic_score": 0.45684670521177634
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_012",
+    "ground_truth_label": 0,
+    "semantic_score": 0.38527368131849815
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_013",
+    "ground_truth_label": 0,
+    "semantic_score": 0.6021729004087464
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_014",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4275411766567852
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_015",
+    "ground_truth_label": 0,
+    "semantic_score": 0.42799025485205094
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_016",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4804947740726758
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_017",
+    "ground_truth_label": 0,
+    "semantic_score": 0.3799530615164172
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_018",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4998853504710805
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_019",
+    "ground_truth_label": 1,
+    "semantic_score": 0.7470342349619209
+  },
+  {
+    "job_id": "job_025",
+    "candidate_id": "cand_020",
+    "ground_truth_label": 0,
+    "semantic_score": 0.4386501829511986
+  }
+]

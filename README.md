@@ -454,8 +454,60 @@ The project includes a comprehensive evaluation pipeline to assess matching qual
 ### Evaluation Workflow
 
 1. **Generate Pairs** - Create job-candidate pairs using title matching
-2. **Apply Rules** - Label pairs using rule-based logic
-3. **Analyze Results** - Review match statistics and quality
+2. **Apply Rules** - Label pairs using rule-based logic (creates ground truth)
+3. **Run Evaluation** - Compare semantic matching against ground truth
+4. **Analyze Results** - Review metrics and optimize thresholds
+
+### Step-by-Step Evaluation
+
+#### 1. Generate Ground Truth Labels (Already Done)
+Your `data/eval/pairs_labeled_rules.json` contains 2502 labeled pairs - this is your ground truth.
+
+#### 2. Run Evaluation
+```bash
+python src/evaluation/evaluate_fast.py
+```
+
+**What it does:**
+- Loads ground truth labels from `pairs_labeled_rules.json`
+- Fetches all embeddings from Qdrant
+- Computes cosine similarity for each job-candidate pair
+- Evaluates at multiple thresholds (0.5 - 0.9)
+- Reports Precision, Recall, F1-Score, Accuracy
+- Identifies optimal threshold
+
+**Output:**
+- `data/eval/evaluation_results.json` - Summary metrics
+- `data/eval/pair_scores.json` - Individual pair scores
+
+#### 3. Visualize Results
+```bash
+python src/evaluation/visualize_results.py
+```
+
+**What it shows:**
+- Dataset statistics (positive/negative samples)
+- Best performance metrics with confusion matrix
+- Performance comparison across thresholds
+- False positive/negative analysis
+- Recommendations for threshold selection
+
+### Understanding Evaluation Metrics
+
+**Precision** = `TP / (TP + FP)`
+- How many recommended matches are actually good?
+- High precision = Few bad recommendations
+
+**Recall** = `TP / (TP + FN)`
+- How many good matches did we find?
+- High recall = Don't miss good candidates
+
+**F1-Score** = `2 × (Precision × Recall) / (Precision + Recall)`
+- Balanced metric combining precision and recall
+- Use this to find optimal threshold
+
+**Accuracy** = `(TP + TN) / Total`
+- Overall correctness
 
 ### Rule Configuration
 
@@ -475,12 +527,22 @@ experience(candidate, job, tolerance=2.0)  # ±2 years
 keyword_overlap(candidate, job, min_overlap_ratio=0.2)  # 20% overlap
 ```
 
-### Evaluation Metrics
+### Interpreting Results
 
-To evaluate matching performance, compare:
-- **Semantic scores** (from vector search) vs **Rule labels** (from evaluation)
-- Precision/Recall of semantic search at different thresholds
-- Agreement between semantic and rule-based approaches
+**Good System:**
+- F1-Score > 0.75
+- Precision & Recall both > 0.7
+- Clear optimal threshold identified
+
+**Needs Improvement:**
+- F1-Score < 0.6
+- Large gap between precision and recall
+- Poor score distribution separation
+
+**Action Items:**
+- **Low Precision**: Increase threshold, improve embeddings
+- **Low Recall**: Decrease threshold, enhance search text
+- **Both Low**: Review embedding model or ground truth labels
 
 ## License
 
