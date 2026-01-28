@@ -1,4 +1,13 @@
-qdrant-client
-pymongo 
-pandas
-numpy
+# Core Dependencies
+qdrant-client>=1.7.0
+pymongo>=4.6.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# AI/ML Libraries
+google-generativeai>=0.3.0
+google-api-core>=2.15.0
+scikit-learn>=1.3.0
+
+# Utilities
+python-dotenv>=1.0.0
