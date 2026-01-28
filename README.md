@@ -544,6 +544,75 @@ keyword_overlap(candidate, job, min_overlap_ratio=0.2)  # 20% overlap
 - **Low Recall**: Decrease threshold, enhance search text
 - **Both Low**: Review embedding model or ground truth labels
 
+### Latest Evaluation Results
+
+The system was evaluated on 500 job-candidate pairs with the following results:
+
+#### Dataset Statistics
+- **Total pairs**: 500
+- **Positive samples**: 20 (4.0%)
+- **Negative samples**: 480 (96.0%)
+
+#### Best Performance (Threshold = 0.65)
+
+| Metric | Score |
+|--------|-------|
+| Precision | 0.9500 |
+| Recall | 0.9500 |
+| F1-Score | 0.9500 |
+| Accuracy | 0.9960 |
+
+**Confusion Matrix:**
+```
+┌─────────────┬─────────────┐
+│ TP:      19 │ FP:       1 │
+│ FN:       1 │ TN:     479 │
+└─────────────┴─────────────┘
+```
+
+#### Performance at Different Thresholds
+
+| Threshold | Precision | Recall | F1-Score | Accuracy | Notes |
+|-----------|-----------|--------|----------|----------|-------|
+| 0.50 | 0.1835 | 1.0000 | 0.3101 | 0.8220 | High recall |
+| 0.55 | 0.4000 | 1.0000 | 0.5714 | 0.9400 | |
+| 0.60 | 0.7143 | 1.0000 | 0.8333 | 0.9840 | |
+| **0.65** | **0.9500** | **0.9500** | **0.9500** | **0.9960** | **★ Best F1** |
+| 0.70 | 1.0000 | 0.7000 | 0.8235 | 0.9880 | Perfect precision |
+| 0.75 | 1.0000 | 0.0500 | 0.0952 | 0.9620 | |
+| 0.80 | 0.0000 | 0.0000 | 0.0000 | 0.9600 | |
+| 0.85 | 0.0000 | 0.0000 | 0.0000 | 0.9600 | |
+| 0.90 | 0.0000 | 0.0000 | 0.0000 | 0.9600 | |
+
+#### Key Insights
+
+✓ **High precision**: System rarely recommends bad matches  
+✓ **High recall**: System finds most good matches  
+✓ **Strong F1-score**: Excellent balance between precision and recall  
+
+#### Recommendations Based on Results
+
+1. **Best Balance** - Use threshold **0.65** for optimal F1-score (0.95)
+2. **Higher Precision** - Use threshold **0.70** for perfect precision (no false positives)
+   - Precision: 1.0000, Recall: 0.7000
+3. **Higher Recall** - Use threshold **0.50** to find all matches (no false negatives)
+   - Precision: 0.1835, Recall: 1.0000
+
+#### Error Analysis (at 0.70 threshold)
+
+**False Positives**: 0 (system made no incorrect recommendations)
+
+**False Negatives**: 6 (missed some valid matches)
+
+Top False Negatives (should match but scored below threshold):
+1. job_012 + cand_010: score = 0.6477
+2. job_006 + cand_006: score = 0.6533
+3. job_002 + cand_002: score = 0.6726
+4. job_010 + cand_012: score = 0.6727
+5. job_008 + cand_008: score = 0.6857
+
+These pairs scored slightly below 0.70 but were labeled as matches by the rule engine, suggesting the semantic embeddings could be further optimized for these edge cases.
+
 ## License
 
 MIT
